@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+html, body  {
+    overflow-x: hidden;
+}
+
+
+
+
+.banner-heading{
+    font-size: 4rem;
+    color: black ;
+    font-weight: 700;
+}
+
+.span-heading{
+    font-size: 5rem;
+    color: #fbad20;
+    font-weight: 900;
+
+}
+
+
+
+.banner-animation {
+    height: 500px;
+    background: white !important;
+    position: relative; /* Make the container a positioning context for children */ 
+    overflow: hidden;
+}
+.a-one,
+.a-two,
+.a-three,
+.a-four,
+.a-five,
+.a-six,
+.a-seven,
+.a-eight,
+.a-nine,
+.a-ten {
+  position: absolute; /* Position the elements relative to the container */
+}
+.a-one {
+  width: 100px;
+  height: 100px;
+  background-color: #fbad20;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+  animation: MoveUpDown 5s linear infinite;
+}
+
+.a-two {
+  width: 150px;
+  height: 150px;
+  background-color:#fbad20;
+  opacity: 0.7;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  animation: MoveUpDownTwo 9s linear infinite;
+}
+
+.a-three {
+  width: 120px;
+  height: 120px;
+  background-color: #fbad20;
+  opacity: 0.2;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 120px;
+  left: 300px;
+  animation: MoveUpDownThree 5s linear infinite;
+}
+
+.a-four {
+  width: 80px;
+  height: 80px;
+  background-color: #fbad20;
+  opacity: 0.4;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownFour 15s linear infinite;
+}
+
+.a-five {
+  width: 50px;
+  height: 50px;
+  background-color:#fbad20;
+  opacity: 0.9;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  animation: MoveUpDownFive 8s linear infinite;
+}
+
+.a-six {
+  width: 175px;
+  height: 175px;
+  background-color: #fbad20;
+  opacity: 0.6;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 250px;
+  right: 200px;
+  animation: MoveUpDownSix 7s linear infinite;
+}
+
+.a-seven {
+  width: 250px;
+  height: 250px;
+  background-color: #fbad20;
+  opacity: 0.3;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  right: 0;
+  animation: MoveUpDownSeven 6s linear infinite;
+}
+
+.a-eight {
+  width: 75px;
+  height: 75px;
+  background-color:#fbad20;
+  opacity: 0.4;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+  animation: MoveUpDownEight 11s linear infinite;
+}
+
+.a-nine {
+  width: 45px;
+  height: 45px;
+  background-color: #fbad20;
+  opacity: 0.7;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  animation: MoveUpDownNine 12s linear infinite;
+}
+
+.a-ten {
+  width: 150px;
+  height: 150px;
+  background-color: #fbad20;
+  opacity: 0.6;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownTen 14s linear infinite;
+}
+
+@keyframes a-one {
+  from { top: 0; left: 0; }
+  to   { top: 100px; left: 100px; }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 300px;
+  }
+}
+
+@keyframes MoveUpDownTwo {
+  0%, 100% {
+    left: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+
+@keyframes MoveUpDownThree {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 400px;
+  }
+}
+
+@keyframes MoveUpDownFour {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 350px;
+  }
+}
+
+@keyframes MoveUpDownFive {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 250px;
+  }
+}
+
+@keyframes MoveUpDownSix {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+
+@keyframes MoveUpDownSeven {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 375px;
+  }
+}
+
+@keyframes MoveUpDownEight {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 370px;
+  }
+}
+
+@keyframes MoveUpDownNine {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 475px;
+  }
+}
+
+@keyframes MoveUpDownTen {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+
+/* expert section */
+
+.expert-bgcolor{
+    background-color: #e6eaea;
+}
+
+/* .expert-card:hover{
+  background-color: #e6eaea;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+} */
+.common-heading{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.common-text{
+    font-size: 1.2rem;
+    color: #4c4c4c !important;
+    text-align: justify;
+    line-height: 1.9;
+}
+
+.expert-img {
+  width: 75%;
+  display: block;
+
+}
+
+/* course section */
+.course-wr{
+ padding: 0px 0px;
+}
+.card-wr{
+     height: 435px;
+    width: 100%;
+
+}
+
+.course-card_one{
+  background-color: rgba(236, 89, 66,0.3);
+  background-position: center;
+  background-size:cover;
+  padding-top: 120px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, rgba(236, 89, 66,0.3),rgba(236, 89, 66,0.8)),
+  url("/wonder20/image/course-image/animation.jpg");
+                                                                                                      
+
+}
+.course-card_two{
+  background-color: rgba(144, 189, 67,0.8);
+  background-position: center;
+    padding-top: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, rgb(144, 189, 67,0.3),rgb(144, 189, 67,0.8)),
+    url("/wonder20/image/course-image/vfx1.jpg");
+
+
+}
+.course-card_three{
+  background-position: center;
+  background-color:  rgba(107, 152, 231,0.8);
+  padding-top: 120px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-image: linear-gradient(45deg,rgba(107, 152, 231,0.3),rgba(107, 152, 231,0.8)),
+  url("/wonder20/image/course-image/web.png");
+
+
+}
+.course-card_four{
+  background-color: rgba(214, 142, 45,0.4);
+  background-position: center;
+  padding-top: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg,rgba(214, 142, 45,0.3), rgba(214, 142, 45,0.8)),
+  url("/wonder20/image/course-image/game.jpg");
+}
+.course-card_five{
+  background-color: rgba(144, 96, 168,0.8);
+  background-position: center;
+  padding-top: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, rgba(59, 59, 152,0.3),rgba(59, 59, 152,0.8)),
+  url("/wonder20/image/course-image/web-3.jpg");
+
+}
+
+
+.card-hr{
+  width: 215px;
+  border: 2px solid;
+  border-color: #fff !important;
+  opacity: 1;
+  height: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -6px;
+
+
+}
+
+/* scroll to top btn */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fbad20;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #fbad20;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+/* testimony section */
+.testimony-bgcolor{
+  background-color: #e6eaea;
+
+
+}
+.testimonial-slider .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  background-color:  #fbad20;
+  border-radius: 100%;
+}
+.testimonial-slider {
+  padding: 10px 0px 40px;
+}
+.testimony-image{
+  width: 12.5rem;
+  height: auto;
+}
+
+.blockquote .testimony_text{
+  font-size: 1rem !important;
+}
+
+/*  */
+
+
+/* Media queries */
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media screen and (max-width: 575.98px) {
+
+    .banner-heading {
+        font-size: 2rem;
+    }
+    .span-heading {
+        font-size: 2rem;
+    }
+    .course-card-body p{
+      display: none;
+     } 
+     .common-heading{
+      font-size: 1.3rem;
+
+     }
+     .common-text {
+      font-size: 0.7rem;  
+   }
+  .card-wr{
+    height: 16.875rem;
+   
+
+  }
+  .card-hr {
+    width: 10.625rem;
+}
+
+    
+
+}
+
+@media (min-width: 575.98px) and (max-width: 767.98px){
+
+ .course-card-body p{
+  display: none;
+ } 
+ .common-text {
+  font-size: 1rem;  
+}
+}
+
+@media (min-width: 767.98px) and (max-width:991.98px){
+  .common-text {
+    font-size: 1rem;  
+}
+
+}
+
+@media (min-width:991.98px) and (max-width:1199.98px){
+  .common-text {
+    font-size: 1rem;  
+}
+
+}
+
+@media (min-width:1199.98) and (max-width:1399.98px){
+
+
+  
+}
+
+@media (min-width:1200) and (max-width:1385px){
+
+}

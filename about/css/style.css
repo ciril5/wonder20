@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+html, body  {
+    overflow-x: hidden;
+}
+
+
+
+.banner-heading{
+    font-size: 4rem;
+    color: rgb(255, 255, 255)  !important;
+    font-weight: 700;
+}
+
+.span-heading{
+    font-size: 5rem;
+    color: #fbad20;
+    font-weight: 900;
+
+}
+
+
+
+.about_banner{
+  height: 500px;
+  background-color: rgba(236, 89, 66,0.3);
+  background-position: top;
+  background-size:cover;
+  padding-top: 120px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, rgba(236, 89, 66,0.3),rgba(236, 89, 66,0.8)),
+  url("/wonder20/about/image/course-image/animation.jpg");
+
+}
+
+
+
+
+
+.highlight-wr{
+  background-color: rgb(199, 224, 238);
+  border-radius: 0.5rem;
+  
+}
+
+.common-heading{
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+
+}
+
+.course-icon {
+  font-size: 2.5rem;
+}
+
+.highlight-h6{
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.highlight-h4{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
+.flip-card:focus {
+    outline: 0;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.flip-card-front {
+  background: white;
+  color: black;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back {
+  background:#fbad20;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+.flip-card-back h3{
+  color:white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.card-wr p{
+  font-size: 12px;
+}
+
+
+
+
+
+/* form */
+
+.course-form-wr-md{
+  width: 300px;
+  height: 259px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);  
+
+}
+.comon-btn{
+  color: rgb(0, 0, 0);
+  background-color: #fbad20;
+  border-color: #fbad20 !important;
+
+}
+
+/* Course details section   */
+
+.common-para{
+  font-size: 0.9rem;
+}
+
+/* Course details-software covered section  */
+
+.content-wrapper{
+  background-color: #fff;
+  width: 30rem;
+}
+
+/* testimoial section */
+.testimonial-slider .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  background-color:#fbad20;
+  border-radius: 100%;
+ 
+}
+
+.star-rate{
+  color: #fbad20 !important;
+
+}
+
+/* scroll to top btn */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fbad20;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #fbad20;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/* Association logos  */
+
+
+
+
+
+
+
+/* media query*/
+
+@media screen and (max-width: 575.98px) {
+  .banner-heading {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+   
+}
+  .span-heading{
+    font-size: 2.5rem !important;
+    
+}
+
+
+ 
+
+  .span-heading-img-page{
+  font-size: 23px !important;
+  width: 325px;
+  }
+  .content-wrapper{
+     width: 95%;
+  }  
+  
+
+   .course-form-wr-md{
+      float: none !important;
+      margin-left: auto;
+      margin-right: auto;
+
+   }
+
+   .common-para{
+      font-size: 0.8rem;
+      text-align: justify;
+  }
+ 
+}
+
+@media (min-width: 575.98px) and (max-width:767.98px) {
+  .banner-heading {
+    font-size: 3rem;
+   
+}
+
+  .span-heading{
+    font-size: 3rem !important;
+    
+}
+
+
+  .common-para {
+      font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 767.98px) and (max-width:991.98px){
+  .banner-heading {
+    font-size: 3.8rem;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700;
+}
+
+  .span-heading{
+    font-size: 4rem !important;
+    
+}
+
+ 
+  .btn{
+      width:226px !important;
+      font-size: 0.7rem !important;
+  }
+  .form-style{
+      margin-left: auto !important;
+      margin-right: auto !important;
+
+  }
+ 
+  .content-wrapper {
+      background-color: #fff;
+      width: 20rem;
+  }
+  
+  
+ 
+}
+
+@media (min-width:991.98px) and (max-width:1199.98px){
+   
+  .banner-heading {
+    font-size: 3.8rem;
+}
+
+  .span-heading{
+    font-size: 4rem !important;
+    
+}
+
+  .content-wrapper {
+      background-color: #fff;
+      width: 28rem;
+  }
+
+  .form-style{
+      float: right;
+      margin-left: 2rem;
+      
+  }    
+  
+}
+
+@media (min-width:1199.98) and (max-width:1399.98px){
+
+
+  .form-style{
+      float: right;    
+  }  
+  .course-form-wr-md{
+      margin-left: 2rem;
+      float:right !important;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
