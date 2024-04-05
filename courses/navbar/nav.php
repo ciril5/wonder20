@@ -16,7 +16,7 @@
 <nav class="navbar navbar-expand-lg  bg-white shadow w-100 p-3">
     <div class="container">
       <a class="navbar-brand" href="#">
-      <img src="include/logo/logo.png" class="logo" alt="" >
+      <img src="image/logo/logo.png" class="logo" alt="" >
       </a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
